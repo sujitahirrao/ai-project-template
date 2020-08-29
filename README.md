@@ -65,7 +65,7 @@ The directory structure of your new project looks like this:
 │   └── raw            <- The original, immutable data dump.
 │
 ├── logs               <- Log API requests (e.g. input, response, stdout, stderr information)
-|
+│
 ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
@@ -100,13 +100,13 @@ The directory structure of your new project looks like this:
 │   │
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
-|
+│
 ├── tests              <- Test scripts for unit testing (e.g. using pytest), 
-|                         performance and load testing of the API
-|
+│                         performance and load testing of the API
+│
 ├── api.py             <- Flask API script
-|
-├── .gitignore
+│
+└── .gitignore
 ```
 
 ### Installing development requirements
