@@ -58,6 +58,23 @@ Project Structure
 	└── .gitignore
 
 
+### Installing development requirements
+------------
+
+    pip install -r requirements.txt
+
+### Running the tests
+------------
+
+    pytest tests
+
+### Build documentation using Sphinx
+------------
+
+    cd docs/
+    make html
+
+
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://github.com/sujitahirrao/flask-api-template">Flask API Template</a>. #flaskappitemplate</small></p>
+<p><small>Project created using the <a target="_blank" href="https://github.com/sujitahirrao/flask-api-template">Flask API Template</a>.</small></p>
