@@ -58,6 +58,7 @@ The directory structure of your new project looks like this:
 
 ```
 ├── README.md          <- The top-level README for developers using this project.
+│
 ├── data
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
@@ -106,7 +107,7 @@ The directory structure of your new project looks like this:
 |
 ├── api.py             <- Flask API script
 |
-├── .gitignore
+└── .gitignore
 ```
 
 ### Installing development requirements
