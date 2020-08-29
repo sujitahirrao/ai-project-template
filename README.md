@@ -119,3 +119,9 @@ The directory structure of your new project looks like this:
 
     pytest tests
 
+### Build documentation using Sphinx
+------------
+
+    cd docs/
+    make html
+
