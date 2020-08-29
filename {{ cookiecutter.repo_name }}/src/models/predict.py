@@ -1,0 +1,2 @@
+def predict(data):
+    pass
