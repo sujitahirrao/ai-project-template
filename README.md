@@ -2,7 +2,7 @@
 
 (Information below is liberally copied from https://drivendata.github.io/cookiecutter-data-science/, with required modifications.)
 
-_**A logical, reasonably standardized, but flexible project structure for doing and sharing data science work with Flask API.**_
+_**A logical, reasonably standardized, but flexible project template for creating new Flask APIs using cookiecutter.**_
 
 ## Why use this project structure?
 > We're not talking about bikeshedding the indentation aesthetics or pedantic formatting standards — ultimately, the code quality is about correctness and reproducibility.
