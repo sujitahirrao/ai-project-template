@@ -1,6 +1,6 @@
 # Flask API Template
 
-(Information below is liberally copied from https://drivendata.github.io/cookiecutter-data-science/, with required modifications.)
+(Information below is liberally copied from (https://drivendata.github.io/cookiecutter-data-science/), with required modifications.)
 
 _**A logical, reasonably standardized, but flexible project template for creating new Flask APIs using cookiecutter.**_
 
