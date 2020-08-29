@@ -1,10 +1,9 @@
 site_name: Flask API Template
-site_description: A project template and directory structure for Python Flask API projects.
-site_favicon: favicon.ico
+site_description: A project template and directory structure for Python Flask API projects
 repo_url: https://github.com/sujitahirrao/flask-api-template
 edit_uri: edit/master/docs/docs
 theme: cinder
 extra_css:
   - css/extra.css
-pages:
+nav:
   - Home: index.md

@@ -7,11 +7,11 @@ from cookiecutter import main
 CCDS_ROOT = Path(__file__).parents[1].resolve()
 
 args = {
-        'project_name': 'Flask API Template',
-        'author_name': 'Sujit Ahirrao',
-        'open_source_license': 'Apache license 2.0',
-        'python_interpreter': 'python'
-        }
+    'project_name': 'Flask API Template',
+    'author_name': 'Sujit Ahirrao',
+    'open_source_license': 'Apache license 2.0',
+    'python_interpreter': 'python'
+}
 
 
 def system_check(basename):
@@ -35,13 +35,13 @@ def default_baked_project(tmpdir_factory, request):
     )
 
     pn = pytest.param.get('project_name') or 'project_name'
-    
+
     # project name gets converted to lower case on Linux but not Mac
     pn = system_check(pn)
 
     proj = out_dir / pn
     request.cls.path = proj
-    yield 
+    yield
 
     # cleanup after
     shutil.rmtree(out_dir)
