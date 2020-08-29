@@ -1,7 +1,7 @@
 {
     "project_name": "e.g. My Flask API",
-    "repo_name": "[OPTIONAL] {{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "package_name": "[OPTIONAL] {{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
 	"author_name": "Your name (or your organization/company/team)",
     "author_email": "Your e-mail (or your organization/company/team e-mail)",
 	"description": "A short description of the project.",

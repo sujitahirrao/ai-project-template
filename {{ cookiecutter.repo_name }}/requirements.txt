@@ -3,4 +3,3 @@
 
 # external requirements
 Flask
-Sphinx
