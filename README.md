@@ -1,5 +1,10 @@
 # Flask API Template
 
+#### TL;DR: To create a new Flask API project from this template using [cookiecutter](https://cookiecutter.readthedocs.io/), run:
+    cookiecutter https://github.com/sujitahirrao/flask-api-template
+
+------------
+
 (Information below is liberally copied from https://drivendata.github.io/cookiecutter-data-science/, with required modifications.)
 
 _**A logical, reasonably standardized, but flexible project template for creating new Flask APIs using cookiecutter.**_
