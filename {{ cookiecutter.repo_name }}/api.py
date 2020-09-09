@@ -3,9 +3,9 @@ from datetime import datetime
 from flask import Flask, jsonify, request
 from werkzeug.utils import secure_filename
 
-from src import config
-from src.models.predict import predict
-from src.response_handler import APIResponseHandler
+from {{ cookiecutter.package_name }} import config
+from {{ cookiecutter.package_name }}.models.predict import predict
+from {{ cookiecutter.package_name }}.response_handler import APIResponseHandler
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'pdf', 'xlsx'}
 
