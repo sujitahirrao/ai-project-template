@@ -11,10 +11,13 @@ def read(file_name):
 
 setup(
     name="{{ cookiecutter.package_name }}",
-    packages=find_packages(exclude=["tests", "*visualization"]),
+    package_dir={'': 'src'},
+    packages=find_packages(where='src', exclude=["tests", "*visualization"]),
     version="0.1.0",
-    description="{{ cookiecutter.description }}",
     author="{{ cookiecutter.author_name }}",
     author_email="{{ cookiecutter.author_email }}",
+    description="{{ cookiecutter.description }}",
     long_description=read("README.md"),
+    long_description_content_type="text/markdown",
+    python_requires='>=3.6, <4',
 )
