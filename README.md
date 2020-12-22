@@ -1,7 +1,7 @@
 # AI Project Template
 
 #### TL;DR: To create a new AI project with Flask API from this template using [cookiecutter](https://cookiecutter.readthedocs.io/), run:
-    cookiecutter https://github.com/sujitahirrao/flask-api-template
+    cookiecutter https://github.com/sujitahirrao/ai-project-template
 
 ------------
 
